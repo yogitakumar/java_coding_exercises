@@ -12,4 +12,12 @@ public class Person{
       city = cityName;
       age = personAge;
   }
+
+  public String getCity(){
+    return city;
+  }
+
+  public int getAge(){
+    return age;
+  }
 }
